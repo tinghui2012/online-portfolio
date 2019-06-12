@@ -1,0 +1,214 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 70px;
+    color: #444;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E5E5;
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        border-style: none;
+        border-width: 0px;
+    }
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+
+#name {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.navigationBar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    /*width: 100%;
+    */
+    border-bottom-width: 2px;
+    border-bottom-color: #E5E5E5;
+    border-bottom-style: solid;
+    left: 70px;
+    right: 70px;
+}
+
+#navigationBar {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.button a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.navbarbutton:hover {
+    color: #444;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: solid #E5E5E5 2px;
+}
+
+.button1 {
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.button1 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: solid #E5E5E5 2px;
+}
+
+a:active {
+    color: #444;
+}
+
+#headshot {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+#mapid {
+    height: 180px;
+}
+
+.resumedownload {
+    display: flex;
+    padding: 30px;
+    background-color: #E5E5E5;
+}
+
+#resumebutton {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #444;
+    border: solid #444 2px;
+}
+
+#resumebutton:hover {
+    color: white;
+    background-color: #444;
+}
+
+.parent{
+    display: flex;
+    align-items: left;
+}
+
+.left {
+    width: 40%;
+    align-content: left;
+}
+
+.right {
+    width: 60%;
+}
+
+.shadedbox {
+    background-color: #E5E5E5;
+}
+
+.slideshow {
+    margin: auto;
+    position: relative;
+}
+
+.slides {
+    display: none;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+.next {
+    right: 0;
+    
+}
+
+.previous {
+    left: 0;
+    
+}
+
+.column {
+  flex: 30%;
+  padding: 0px 4px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 4px;
+}
+
+.content{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+
+#video{
+    display: block;
+    width: 560px;
+    height: 315px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
